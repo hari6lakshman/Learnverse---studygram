@@ -24,8 +24,8 @@ export interface Category {
 }
 
 export const allVideos: Video[] = [
-  { id: 'v1', title: 'Introduction to Electric Charges', description: 'A foundational look at electric charges and their properties.', youtubeId: 'NCeJ4Wih8gA', imageId: 'img1', relatedVideoIds: ['v2'] },
-  { id: 'v2', title: 'Coulomb\'s Law Explained', description: 'Understanding the forces between two point charges.', youtubeId: '3s29x9V2GmM', imageId: 'img2', relatedVideoIds: ['v1'] },
+  { id: 'v1', title: 'Introduction to Electric Charges', description: 'A foundational look at electric charges and their properties.', youtubeId: 'Zv35EwiwGjU', imageId: 'img1', relatedVideoIds: ['v2'] },
+  { id: 'v2', title: 'Coulomb\'s Law Explained', description: 'Understanding the forces between two point charges.', youtubeId: 'G3s0-97c0p0', imageId: 'img2', relatedVideoIds: ['v1'] },
   { id: 'v3', title: 'Types of Solutions', description: 'Exploring different types of solutions and their characteristics.', youtubeId: 'jmwVI0LAc0A', imageId: 'img3' },
   { id: 'v4', title: 'Basics of Trigonometric Ratios', description: 'Sine, Cosine, and Tangent explained with examples.', youtubeId: 'A-Qzi2yFv-s', imageId: 'img4' },
   { id: 'v5', title: 'The Gandhian Era', description: 'A deep dive into Mahatma Gandhi\'s role in India\'s freedom struggle.', youtubeId: '2mPCfS-f6Y0', imageId: 'img5' },
