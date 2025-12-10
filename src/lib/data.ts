@@ -28,11 +28,11 @@ export const allVideos: Video[] = [
   { id: 'v2', title: 'Coulomb\'s Law Explained', description: 'Understanding the forces between two point charges.', youtubeId: '2G2-p2g5i-E', imageId: 'img2', relatedVideoIds: ['v1'] },
   { id: 'v3', title: 'Types of Solutions', description: 'Exploring different types of solutions and their characteristics.', youtubeId: '9h2f1Bv2a2Y', imageId: 'img3' },
   { id: 'v4', title: 'Basics of Trigonometric Ratios', description: 'Sine, Cosine, and Tangent explained with examples.', youtubeId: 'f2u_r6UUsL0', imageId: 'img4' },
-  { id: 'v5', title: 'The Gandhian Era', description: 'A deep dive into Mahatma Gandhi\'s role in India\'s freedom struggle.', youtubeId: 'l4Jj1-8-L9E', imageId: 'img5' },
-  { id: 'v6', title: 'Understanding Articles 14-18', description: 'Detailed analysis of the Right to Equality.', youtubeId: 'mIu5g_LdYcM', imageId: 'img6' },
+  { id: 'v5', title: 'The Gandhian Era', description: 'A deep dive into Mahatma Gandhi\'s role in India\'s freedom struggle.', youtubeId: 'O24YnEacn6c', imageId: 'img5' },
+  { id: 'v6', title: 'Understanding Articles 14-18', description: 'Detailed analysis of the Right to Equality.', youtubeId: 's84e24-rl6s', imageId: 'img6' },
   { id: 'v7', title: 'How to Manage Your Study Schedule', description: 'Effective time management techniques for aspirants.', youtubeId: 'i_F8H4K1i_Y', imageId: 'img7', relatedVideoIds: ['v8'] },
   { id: 'v8', title: 'Balancing Prep with College/Job', description: 'Strategies for working professionals and students.', youtubeId: 'v-2m1K7wT8o', imageId: 'img8', relatedVideoIds: ['v7'] },
-  { id: 'v9', title: 'The Power of Resilience', description: 'Inspirational stories of those who overcame setbacks.', youtubeId: '3_5o7p6I-0k', imageId: 'img9' },
+  { id: 'v9', title: 'The Power of Resilience', description: 'Inspirational stories of those who overcame setbacks.', youtubeId: 'pxBQLFLei70', imageId: 'img9' },
 ];
 
 export const studentResources: Category[] = [
