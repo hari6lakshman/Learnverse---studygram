@@ -1,3 +1,58 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "img1",
+      "description": "Abstract representation of atoms and electric fields.",
+      "imageUrl": "https://images.unsplash.com/photo-1605350635510-f389c4ec13d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzY2llbmNlJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzY1MjgwMjI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "science abstract"
+    },
+    {
+      "id": "img2",
+      "description": "Diagram showing force vectors between two particles.",
+      "imageUrl": "https://images.unsplash.com/photo-1758685734423-593b9854a31c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxlZHVjYXRpb24lMjBkaWFncmFtfGVufDB8fHx8MTc2NTM2MzU4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "education diagram"
+    },
+    {
+      "id": "img3",
+      "description": "Colorful chemical beakers with solutions.",
+      "imageUrl": "https://images.unsplash.com/photo-1614934273038-8829c68de36c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzY2llbmNlJTIwbGFib3JhdG9yeXxlbnwwfHx8fDE3NjUyODgwMjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "science laboratory"
+    },
+    {
+      "id": "img4",
+      "description": "A blackboard with trigonometric formulas written on it.",
+      "imageUrl": "https://images.unsplash.com/photo-1758685733780-4eced3a89d98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYXRoJTIwZWR1Y2F0aW9ufGVufDB8fHx8MTc2NTM2MzU4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "math education"
+    },
+    {
+      "id": "img5",
+      "description": "Vintage photograph of the Indian parliament building.",
+      "imageUrl": "https://images.unsplash.com/photo-1605524557516-bea14c73faac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoaXN0b3J5JTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc2NTM1MTM0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "history architecture"
+    },
+    {
+      "id": "img6",
+      "description": "A gavel and a book representing law and justice.",
+      "imageUrl": "https://images.unsplash.com/photo-1764504688326-de93f024a21c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsYXclMjBqdXN0aWNlfGVufDB8fHx8MTc2NTI3OTA2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "law justice"
+    },
+    {
+      "id": "img7",
+      "description": "A person looking at a well-organized planner and clock.",
+      "imageUrl": "https://images.unsplash.com/photo-1695389793327-3272851d1508?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwbGFubmluZyUyMG9yZ2FuaXphdGlvbnxlbnwwfHx8fDE3NjUzNjM1ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "planning organization"
+    },
+    {
+      "id": "img8",
+      "description": "A split screen showing a person studying and an office environment.",
+      "imageUrl": "https://images.unsplash.com/photo-1521633286323-05b17f47cb74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b3JrJTIwbGlmZXxlbnwwfHx8fDE3NjUzNjM1ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "work life"
+    },
+    {
+      "id": "img9",
+      "description": "A silhouette of a person standing on a mountain peak at sunrise.",
+      "imageUrl": "https://images.unsplash.com/photo-1758518731027-78a22c8852ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdWNjZXNzJTIwYWNoaWV2ZW1lbnR8ZW58MHx8fHwxNzY1MzYzNTg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "success achievement"
+    }
+  ]
 }
