@@ -24,15 +24,15 @@ export interface Category {
 }
 
 export const allVideos: Video[] = [
-  { id: 'v1', title: 'Introduction to Electric Charges', description: 'A foundational look at electric charges and their properties.', youtubeId: 'dQw4w9WgXcQ', imageId: 'img1', relatedVideoIds: ['v2'] },
-  { id: 'v2', title: 'Coulomb\'s Law Explained', description: 'Understanding the forces between two point charges.', youtubeId: 'dQw4w9WgXcQ', imageId: 'img2', relatedVideoIds: ['v1'] },
-  { id: 'v3', title: 'Types of Solutions', description: 'Exploring different types of solutions and their characteristics.', youtubeId: 'dQw4w9WgXcQ', imageId: 'img3' },
-  { id: 'v4', title: 'Basics of Trigonometric Ratios', description: 'Sine, Cosine, and Tangent explained with examples.', youtubeId: 'dQw4w9WgXcQ', imageId: 'img4' },
-  { id: 'v5', title: 'The Gandhian Era', description: 'A deep dive into Mahatma Gandhi\'s role in India\'s freedom struggle.', youtubeId: 'dQw4w9WgXcQ', imageId: 'img5' },
-  { id: 'v6', title: 'Understanding Articles 14-18', description: 'Detailed analysis of the Right to Equality.', youtubeId: 'dQw4w9WgXcQ', imageId: 'img6' },
-  { id: 'v7', title: 'How to Manage Your Study Schedule', description: 'Effective time management techniques for aspirants.', youtubeId: 'dQw4w9WgXcQ', imageId: 'img7', relatedVideoIds: ['v8'] },
-  { id: 'v8', title: 'Balancing Prep with College/Job', description: 'Strategies for working professionals and students.', youtubeId: 'dQw4w9WgXcQ', imageId: 'img8', relatedVideoIds: ['v7'] },
-  { id: 'v9', title: 'The Power of Resilience', description: 'Inspirational stories of those who overcame setbacks.', youtubeId: 'dQw4w9WgXcQ', imageId: 'img9' },
+  { id: 'v1', title: 'Introduction to Electric Charges', description: 'A foundational look at electric charges and their properties.', youtubeId: 'TFlSv4hw_2U', imageId: 'img1', relatedVideoIds: ['v2'] },
+  { id: 'v2', title: 'Coulomb\'s Law Explained', description: 'Understanding the forces between two point charges.', youtubeId: '2G2-p2g5i-E', imageId: 'img2', relatedVideoIds: ['v1'] },
+  { id: 'v3', title: 'Types of Solutions', description: 'Exploring different types of solutions and their characteristics.', youtubeId: '9h2f1Bv2a2Y', imageId: 'img3' },
+  { id: 'v4', title: 'Basics of Trigonometric Ratios', description: 'Sine, Cosine, and Tangent explained with examples.', youtubeId: 'f2u_r6UUsL0', imageId: 'img4' },
+  { id: 'v5', title: 'The Gandhian Era', description: 'A deep dive into Mahatma Gandhi\'s role in India\'s freedom struggle.', youtubeId: 'l4Jj1-8-L9E', imageId: 'img5' },
+  { id: 'v6', title: 'Understanding Articles 14-18', description: 'Detailed analysis of the Right to Equality.', youtubeId: 'mIu5g_LdYcM', imageId: 'img6' },
+  { id: 'v7', title: 'How to Manage Your Study Schedule', description: 'Effective time management techniques for aspirants.', youtubeId: 'i_F8H4K1i_Y', imageId: 'img7', relatedVideoIds: ['v8'] },
+  { id: 'v8', title: 'Balancing Prep with College/Job', description: 'Strategies for working professionals and students.', youtubeId: 'v-2m1K7wT8o', imageId: 'img8', relatedVideoIds: ['v7'] },
+  { id: 'v9', title: 'The Power of Resilience', description: 'Inspirational stories of those who overcame setbacks.', youtubeId: '3_5o7p6I-0k', imageId: 'img9' },
 ];
 
 export const studentResources: Category[] = [
