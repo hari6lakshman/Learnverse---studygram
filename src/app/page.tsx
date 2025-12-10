@@ -1,4 +1,3 @@
-
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { ContentDisplay } from '@/components/content-display';
 import { studentResources, competitiveExams, motivationAndMentorship } from '@/lib/data';
