@@ -8,6 +8,7 @@ import {
 import type { Category } from '@/lib/data';
 import { VideoCard } from './video-card';
 import { BookOpen, ChevronsRight, FolderKanban } from 'lucide-react';
+import { cn } from '@/lib/utils';
 
 interface ContentDisplayProps {
   data: Category[];
@@ -17,7 +18,14 @@ export function ContentDisplay({ data }: ContentDisplayProps) {
   return (
     <Accordion type="single" collapsible className="w-full space-y-4">
       {data.map((category, index) => (
-        <AccordionItem value={`category-${index}`} key={category.name} className="rounded-lg border bg-muted/50 px-4">
+        <AccordionItem 
+          value={`category-${index}`} 
+          key={category.name} 
+          className={cn(
+            "rounded-lg border bg-muted/50 px-4",
+            category.name === 'Class 10' && 'mt-[50px]'
+          )}
+        >
           <AccordionTrigger className="text-xl font-semibold text-primary hover:no-underline">
             <div className="flex items-center gap-3">
               <FolderKanban className="h-6 w-6" />
