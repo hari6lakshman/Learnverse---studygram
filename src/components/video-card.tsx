@@ -8,6 +8,9 @@ import {
 import {
   Dialog,
   DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
   DialogTrigger,
 } from '@/components/ui/dialog';
 import type { Video } from '@/lib/data';
@@ -51,6 +54,10 @@ export function VideoCard({ video }: VideoCardProps) {
         </Card>
       </DialogTrigger>
       <DialogContent className="max-w-4xl border-0 bg-transparent p-0 shadow-none">
+        <DialogHeader className="sr-only">
+          <DialogTitle>{video.title}</DialogTitle>
+          <DialogDescription>{video.description}</DialogDescription>
+        </DialogHeader>
         <VideoPlayer youtubeId={video.youtubeId} title={video.title} />
       </DialogContent>
     </Dialog>
