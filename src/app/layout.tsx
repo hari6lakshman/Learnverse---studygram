@@ -1,5 +1,6 @@
 
 import type { Metadata } from 'next';
+import { Cinzel, Lato } from 'next/font/google';
 import { cn } from '@/lib/utils';
 import './globals.css';
 
@@ -8,22 +9,29 @@ export const metadata: Metadata = {
   description: 'Your Studygram Universe for curated educational content.',
 };
 
+const cinzel = Cinzel({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-cinzel',
+});
+
+const lato = Lato({
+  subsets: ['latin'],
+  weight: ['300', '400', '700'],
+  display: 'swap',
+  variable: '--font-lato',
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400;700&display=swap"
-          rel="stylesheet"
-        />
-      </head>
-      <body className={cn('font-body antialiased')}>{children}</body>
+    <html lang="en" className={cn('dark', cinzel.variable, lato.variable)}>
+      <body>
+        <main className="font-body antialiased">{children}</main>
+      </body>
     </html>
   );
 }

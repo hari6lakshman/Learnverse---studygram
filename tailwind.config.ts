@@ -11,8 +11,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ['Lato', 'sans-serif'],
-        headline: ['Cinzel', 'serif'],
+        body: ['var(--font-lato)', 'sans-serif'],
+        headline: ['var(--font-cinzel)', 'serif'],
         code: ['monospace'],
       },
       colors: {
