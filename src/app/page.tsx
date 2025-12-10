@@ -19,7 +19,7 @@ export default function Home() {
 
         <main className="p-4 sm:p-6">
           <Tabs defaultValue="student-resources" className="w-full">
-            <TabsList className="grid w-full grid-cols-1 bg-muted sm:grid-cols-3">
+            <TabsList className="grid w-full grid-cols-1 bg-muted md:grid-cols-3">
               <TabsTrigger value="student-resources">Student Resources</TabsTrigger>
               <TabsTrigger value="competitive-exams">Competitive Exams</TabsTrigger>
               <TabsTrigger value="motivation">Motivation & Mentorship</TabsTrigger>
