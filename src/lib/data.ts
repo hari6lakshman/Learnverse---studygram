@@ -25,14 +25,14 @@ export interface Category {
 
 export const allVideos: Video[] = [
   { id: 'v1', title: 'Introduction to Electric Charges', description: 'A foundational look at electric charges and their properties.', youtubeId: 'Zv35EwiwGjU', imageId: 'img1', relatedVideoIds: ['v2'] },
-  { id: 'v2', title: 'Coulomb\'s Law Explained', description: 'Understanding the forces between two point charges.', youtubeId: 'G3s0-97c0p0', imageId: 'img2', relatedVideoIds: ['v1'] },
-  { id: 'v3', title: 'Types of Solutions', description: 'Exploring different types of solutions and their characteristics.', youtubeId: 'jmwVI0LAc0A', imageId: 'img3' },
-  { id: 'v4', title: 'Basics of Trigonometric Ratios', description: 'Sine, Cosine, and Tangent explained with examples.', youtubeId: 'A-Qzi2yFv-s', imageId: 'img4' },
-  { id: 'v5', title: 'The Gandhian Era', description: 'A deep dive into Mahatma Gandhi\'s role in India\'s freedom struggle.', youtubeId: '2mPCfS-f6Y0', imageId: 'img5' },
-  { id: 'v6', title: 'Understanding Articles 14-18', description: 'Detailed analysis of the Right to Equality.', youtubeId: 'L-8K0fVp2iA', imageId: 'img6' },
-  { id: 'v7', title: 'How to Manage Your Study Schedule', description: 'Effective time management techniques for aspirants.', youtubeId: 'x3iNf-H22dM', imageId: 'img7', relatedVideoIds: ['v8'] },
-  { id: 'v8', title: 'Balancing Prep with College/Job', description: 'Strategies for working professionals and students.', youtubeId: 'u4VqgG2JjA0', imageId: 'img8', relatedVideoIds: ['v7'] },
-  { id: 'v9', title: 'The Power of Resilience', description: 'Inspirational stories of those who overcame setbacks.', youtubeId: 'Ch923slLp9E', imageId: 'img9' },
+  { id: 'v2', title: 'Coulomb\'s Law Explained', description: 'Understanding the forces between two point charges.', youtubeId: 'Zv35EwiwGjU', imageId: 'img2', relatedVideoIds: ['v1'] },
+  { id: 'v3', title: 'Types of Solutions', description: 'Exploring different types of solutions and their characteristics.', youtubeId: 'Zv35EwiwGjU', imageId: 'img3' },
+  { id: 'v4', title: 'Basics of Trigonometric Ratios', description: 'Sine, Cosine, and Tangent explained with examples.', youtubeId: 'Zv35EwiwGjU', imageId: 'img4' },
+  { id: 'v5', title: 'The Gandhian Era', description: 'A deep dive into Mahatma Gandhi\'s role in India\'s freedom struggle.', youtubeId: 'Zv35EwiwGjU', imageId: 'img5' },
+  { id: 'v6', title: 'Understanding Articles 14-18', description: 'Detailed analysis of the Right to Equality.', youtubeId: 'Zv35EwiwGjU', imageId: 'img6' },
+  { id: 'v7', title: 'How to Manage Your Study Schedule', description: 'Effective time management techniques for aspirants.', youtubeId: 'Zv35EwiwGjU', imageId: 'img7', relatedVideoIds: ['v8'] },
+  { id: 'v8', title: 'Balancing Prep with College/Job', description: 'Strategies for working professionals and students.', youtubeId: 'Zv35EwiwGjU', imageId: 'img8', relatedVideoIds: ['v7'] },
+  { id: 'v9', title: 'The Power of Resilience', description: 'Inspirational stories of those who overcame setbacks.', youtubeId: 'Zv35EwiwGjU', imageId: 'img9' },
 ];
 
 export const studentResources: Category[] = [
